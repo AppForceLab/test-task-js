@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navList {
+  display: flex;
+  gap: 24px;
+}
+
+.navLink {
+  font-weight: var(--font-weight-semi-bold);
+  color: var(--color-black);
+}
+
+.navLink:hover,
+.navLink.active {
+  color: var(--color-secondary);
+}
+
+.navLink.active {
+  pointer-events: none;
+}
