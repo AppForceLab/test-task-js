@@ -1,0 +1,26 @@
+.button {
+  padding: 16px 60px 16px 60px;
+  border-radius: 200px;
+  border: none;
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-semi-bold);
+  background-color: transparent;
+}
+
+.button.red {
+  color: var(--color-white);
+  background-color: var(--color-main);
+}
+
+.button.red:hover {
+  background-color: var(--color-main-hover);
+}
+
+.button.transparent {
+  border: 1px solid rgba(71, 84, 103, 0.2);
+  color: var(--color-black);
+}
+
+.button.transparent:hover {
+  border-color: var(--color-main);
+}

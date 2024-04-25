@@ -1,0 +1,31 @@
+.ratingLocationContainer {
+  display: flex;
+  gap: 16px;
+  color: var(--color-black);
+}
+
+.ratingContainer {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.starIcon {
+  fill: var(--color-secondary);
+  stroke: var(--color-secondary);
+}
+
+.rating {
+  text-decoration: underline;
+}
+
+.locationContainer {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.locationIcon {
+  fill: none;
+  stroke: var(--color-black);
+}

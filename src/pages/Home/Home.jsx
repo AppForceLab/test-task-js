@@ -1,13 +1,14 @@
 
 import styles from './Home.module.css';
+import SliderComponent from 'components/Slider/SliderComponent';
 
 const Home = () => {
   return (
     <>
-      <h1 className={styles.pageTitle}>Campers Rent</h1>
-      <p>
-        Some description
-     </p>
+    <div className={styles.container}>
+      <h1 className={styles.title}>Welcome to Campers World</h1>
+    <SliderComponent />
+    </div>
     </>
   );
 };

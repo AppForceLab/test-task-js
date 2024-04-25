@@ -1,0 +1,82 @@
+.card {
+  position: relative;
+  display: flex;
+  gap: 24px;
+  width: 888px;
+  height: 358px;
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid rgba(16, 24, 40, 0.2);
+}
+
+.imageContainer {
+  flex-shrink: 0;
+  width: 290px;
+  height: 310px;
+  border-radius: 10px;
+  background-color: var(--color-gray);
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  margin-bottom: 8px;
+  width: 320px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.priceFavoriteButtonContainer {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.price {
+  font-size: var(--font-size-h2);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+}
+
+.fovoriteButton {
+  width: 24px;
+  height: 24px;
+}
+
+.fovoriteButtonIcon {
+  stroke: var(--color-black);
+  fill: none;
+}
+
+.fovoriteButtonIcon.isFavorite,
+.fovoriteButtonIcon:hover {
+  stroke: var(--color-main);
+  fill: var(--color-main);
+}
+
+.description {
+  margin: 24px 0;
+  width: 524px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+  height: 96px;
+  overflow: hidden;
+}

@@ -1,0 +1,12 @@
+.campersList {
+  margin-bottom: 50px;
+}
+
+.campersList .camperItem:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.loadMoreButton {
+  display: block;
+  margin: 0 auto;
+}

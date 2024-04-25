@@ -1,0 +1,28 @@
+.locationFilter {
+  margin-bottom: 32px;
+}
+
+.label {
+  margin-bottom: 8px;
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.input {
+  padding-left: 44px;
+  width: 100%;
+  height: 56px;
+  border-radius: 10px;
+  border: none;
+  font-size: var(--font-size-body);
+  background-color: var(--color-gray-light);
+}
+
+.locationIcon {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}

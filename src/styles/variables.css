@@ -1,0 +1,18 @@
+:root {
+  --color-main: #e44848;
+  --color-main-hover: #D84343;
+  --color-secondary: #ffc531;
+  --color-body-text: #475467;
+  --color-black: #101828;
+  --color-white: #ffffff;
+  --color-gray: #f2f4f7;
+  --color-gray-light: #f7f7f7;
+
+  --font-weight-normal: 400;
+  --font-weight-semi-bold: 500;
+  --font-weight-bold: 600;
+  --font-size-body: 16px;
+  --font-size-h1: 36px;
+  --font-size-h2: 24px;
+  --line-height-body: 1.5;
+}

@@ -1,0 +1,43 @@
+.featuresContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 44px;
+}
+
+.detailsTableTitle {
+  margin-bottom: 24px;
+  color: var(--color-black);
+}
+
+.detailsTableContainer {
+  padding-top: 24px;
+  border-top: 1px solid #1018281A
+}
+
+.detailsTable,
+.detailsTable tbody {
+  display: block;
+}
+
+.detailsTable tr {
+  display: flex;
+}
+
+.detailsTable tr:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.detailsTable td {
+  width: 50%;
+  font-size: 18px;
+  font-weight: var(--font-weight-semi-bold);
+  line-height: 1.33;
+  text-transform: capitalize;
+  color: var(--color-black);
+}
+
+.detailsTable td:nth-child(2) {
+  text-align: right;
+  ;
+}

@@ -1,0 +1,27 @@
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content p {
+    color: #333;
+    margin: 10px 0;
+}
+
+.content a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
